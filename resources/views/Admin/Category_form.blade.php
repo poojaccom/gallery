@@ -10,8 +10,8 @@
 </head>
 <body>
 
-<div class="container"> 
-  <h2>Add video Category</h2>
+<div class="container">  
+  <h2>Add Category</h2>
   <form action="{{ route('save.category') }}" method="post">
       {{ csrf_field() }}
     <div class="form-group">
